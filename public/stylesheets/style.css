@@ -1,8 +1,83 @@
 body {
-  padding: 50px;
+  padding: 0px;
+  margin: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.main-homepage {
+  margin-top: -20px;
+  width: 100%;
+}
+
+.main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.content {
+  width: 70%;
+}
+
+/* PAGINA MOVIES */
+.todasPeliculas {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-pelicula {
+  flex: 1 0 25%;
+  text-align: center;
+}
+
+/* PAGINA DETALLES */
+.peliculaBox {
+  display: flex;
+  position: column;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.pelicula-detalles {
+  flex: 1 0 25%;
+  text-align: left;
+}
+.container-homepage {
+  background-image: url("../images/cinema.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container-texto-homepage {
+  position: absolute;
+  top: 10%;
+  left: 60%;
+}
+
+.container-texto-homepage h1 {
+  font-size: 5em;
+  color: white;
+}
+
+.btn-homepage {
+  background-color: white;
+  color: rgb(66, 103, 129);
+  border-radius: 25px;
+  padding: 20px;
+  border: solid 1px white;
+  font-size: 1.5em;
+}
+
+.btn-homepage:hover {
+  background-color: rgb(66, 103, 129);
+  color: white;
+  border: solid 1px white;
 }
